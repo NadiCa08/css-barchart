@@ -1,0 +1,33 @@
+<style>
+
+h2 {
+      color: #296727;
+            }
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 200px;
+    align-items: end;
+    grid-gap: 45px;
+    background: #5f747e;
+    }
+
+.BarChart-bar {
+   width: 50px;
+   height: auto;
+   color: green;
+   grid-row-start: 1;
+   grid-row-end: 5;
+   background: white;
+   
+   
+  }
+    
+
+    
+    
+    
+
+    
+</style>
