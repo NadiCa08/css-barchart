@@ -1,29 +1,54 @@
+
 <style>
 
-h2 {
-      color: #296727;
+h2{
+      color: #2e3436;
+      border: 2px dashed gold;
             }
+            
+div:before {
+    margin: 10px;
+    padding: 8px;
+    }
+
 
 .GridContainer {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px;
-    grid-template-rows: 200px;
+    grid-template-columns: auto;
+    grid-template-rows: 130px;
     align-items: end;
-    grid-gap: 45px;
-    background: #5f747e;
+    grid-gap: 120px;
+    background: #bebfc1;
+    border: 4px dashed #56b9c7;
+
     }
 
 .BarChart-bar {
-   width: 50px;
+   width: 90px;
    height: auto;
-   color: green;
+   color: white;
    grid-row-start: 1;
    grid-row-end: 5;
-   background: white;
-   
-   
-  }
-    
+   background-image: linear-gradient(red, yellow, green);
+   margin-left: 24px;
+   box-shadow: 0 0 20px #50def2;
+   }
+
+
+
+
+:root {
+--bg-color: #bebfc1;
+--page-spacing: 50px;
+--border: 4px dashed #56b9c7;
+}
+.MainContent {
+background-color: var(--bg-color);
+margin-left: var(--page-spacing);
+}
+.NavBar {
+padding: var(--page-spacing);
+}
 
     
     
